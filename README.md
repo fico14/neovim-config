@@ -8,7 +8,9 @@ Prerequisites:
 Usage:
 1) Save your old NeoVim config and plugins
 2) Clone this repo in your ~/.config/ directory with:
-    'git clone git@github.com:fico14/neovim-config.git nvim'
+    ```bash
+    git clone git@github.com:fico14/neovim-config.git nvim
+    ```
 3) Run backup_nvim.sh that clones all plugins at correct location
 4) Enjoy your NeoVim setup!
 
