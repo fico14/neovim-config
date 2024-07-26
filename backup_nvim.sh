@@ -1,8 +1,8 @@
 #! /bin/bash
 
-CLONE_DIR="~/.local/share/nvim/site/pack/packer/"
-#CLONE_DIR="~/fico/tmp"  #dir for testing purposes
-TMP_DIR="~/start"
+CLONE_DIR="$HOME/.local/share/nvim/site/pack/packer/"
+#CLONE_DIR="$HOME/fico/tmp"  #dir for testing purposes
+TMP_DIR="$HOME/start"
 
 mkdir -p $CLONE_DIR
 mkdir $TMP_DIR
@@ -71,7 +71,7 @@ git clone --depth=1 https://github.com/navarasu/onedark.nvim.git
 ###############################################################################
 ###############################################################################
 
-cd -
+cd $HOME
 pwd
 mv $TMP_DIR $CLONE_DIR
 
