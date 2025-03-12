@@ -11,6 +11,7 @@ vim.opt.scrolloff = 30
 
 vim.opt.updatetime = 50
 vim.opt.colorcolumn = "80"
+vim.opt.autoindent = true  
 -- vim.opt.guicursor = "n-v-i-c:block-Cursor"
 
 vim.g.mapleader = " "
@@ -18,3 +19,4 @@ vim.g.mapleader = " "
 vim.g.netrw_liststyle = 3
 
 vim.g.blamer_delay = 250
+vim.g.netrw_winsize = 30
