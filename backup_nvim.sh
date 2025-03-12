@@ -26,8 +26,8 @@ git clone --depth=1 https://github.com/shaunsingh/nord.nvim.git
 git clone --depth=1 https://github.com/neovim/nvim-lspconfig
 #nvim-lspconfig/
 
-git clone --depth=1 https://github.com/APZelos/blamer.nvim.git
-#blamer.nvim/
+git clone --depth=1 https://github.com/FabijanZulj/blame.nvim.git
+#blame.nvim
 
 git clone --depth=1 https://github.com/nvim-lualine/lualine.nvim.git
 #lualine.nvim/
