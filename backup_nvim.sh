@@ -17,9 +17,6 @@ pwd
 git clone --depth=1 https://github.com/L3MON4D3/LuaSnip
 #LuaSnip/
 
-git clone --depth=1 https://github.com/VonHeikemen/lsp-zero.nvim.git
-#lsp-zero.nvim/
-
 git clone --depth=1 https://github.com/shaunsingh/nord.nvim.git
 #nord.nvim/
 
