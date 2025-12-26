@@ -1,4 +1,4 @@
-vim.g.mapleader = " "
+
 vim.keymap.set("n", "<leader>pv", vim.cmd.Lexplore)
 
 vim.keymap.set("x", "<leader>p", "\"_dP")
@@ -18,3 +18,4 @@ vim.api.nvim_create_autocmd({ "BufWritePre" }, {
         vim.fn.setpos(".", save_cursor)
     end,
 })
+
