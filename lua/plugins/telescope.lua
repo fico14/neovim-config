@@ -28,7 +28,7 @@ return {
 		local builtin = require('telescope.builtin')
 
 		vim.keymap.set('n', '<leader>pf', builtin.find_files, {})
-		vim.keymap.set('n', '<leader>f', builtin.live_grep, {})
+		vim.keymap.set('n', '<leader>f', ":lua require('telescope.builtin').live_grep({ additional_args = { '--fixed-strings' }})<CR>", {})
 		vim.keymap.set('n', '<leader>bf', builtin.current_buffer_fuzzy_find, {})
 		vim.keymap.set('n', '<leader>ps', builtin.grep_string, {})
 
